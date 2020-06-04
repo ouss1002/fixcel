@@ -1,0 +1,22 @@
+{
+  "name": "fixcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ouss1002/fixcel.git"
+  },
+  "author": "ouss1002",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ouss1002/fixcel/issues"
+  },
+  "homepage": "https://github.com/ouss1002/fixcel#readme",
+  "dependencies": {
+    "puppeteer": "^3.3.0"
+  }
+}
