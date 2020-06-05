@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/ouss1002/fixcel#readme",
   "dependencies": {
-    "puppeteer": "^3.3.0"
+    "exceljs": "^4.0.1",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^3.3.0",
+    "read-excel-file": "^4.0.6"
   }
 }

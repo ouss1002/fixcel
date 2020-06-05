@@ -1,2 +1,6 @@
 node_modules/
 ~*
+tmp/
+result/*
+new*
+trace.json
