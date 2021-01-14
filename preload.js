@@ -1,5 +1,5 @@
 // overwrite the `languages` property to use a custom getter
-// overwrite the `languages` propert
+// overwrite the `languages` proper
 Object.defineProperty(navigator, "languages", {
     get: function() {
         return ["en-US", "en"];
