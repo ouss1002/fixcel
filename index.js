@@ -31,8 +31,6 @@ var array_new = [0];
 
     const preloadFile = fs.readFileSync('./preload.js', 'utf8');
     await page.evaluateOnNewDocument(preloadFile);
-
-    // await page.emulate(devices.devicesMap['iPhone X']);
     
 	page.on('dialog', async dialog => {
         console.log(dialog.message());
