@@ -12,6 +12,7 @@ var array_new = [0];
 
 (async () => {
     const browser = await puppeteer.launch({
+        // This is the usual path, you must change it in order for the app to work
         executablePath: 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe',
         headless: false,
         ignoreHTTPSErrors: true,
