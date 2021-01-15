@@ -1,3 +1,5 @@
+// This file manages file downloads
+
 const fetch = require('node-fetch');
 const {writeFile} = require('fs');
 const {promisify} = require('util');
