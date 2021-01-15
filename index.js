@@ -154,7 +154,7 @@ var array_new = [0];
                                 }
                             }
                             else if(ele.nature == 'video') {
-                                // await downloader.downloadRetry(ele.link, `./result/${rplus}/${counter}.mp4`, 5);
+                                
                                 if(counter == 1) {
                                     array_new.push(``);
                                 }
