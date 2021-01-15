@@ -9,7 +9,7 @@ Object.defineProperty(navigator, "languages", {
 // overwrite the `plugins` property to use a custom getter
 Object.defineProperty(navigator, 'plugins', {
     get: function() {
-        // this just needs to have `length > 0`, but we could mock the plugins too
+        // this just needs to have `length > 0`
         return [1, 2, 3, 4, 5];
     },
 });
